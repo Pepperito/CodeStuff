@@ -155,7 +155,7 @@ class AISystem:
   def process(self):
     if self.ball.velocity.dirX < 0:
       if (self.computer.position.y + (self.computer.size.height / 2)) > (245):
-		self.computer.position.y -= 10
+	self.computer.position.y -= 10
       elif (self.computer.position.y + (self.computer.size.height / 2)) < (235):
         self.computer.position.y += 10
       else:
